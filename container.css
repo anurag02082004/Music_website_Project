@@ -1,0 +1,175 @@
+/* container page  */
+.container{
+    border: 3px solid #121213;
+    /* display: flex; */
+}
+
+/* boxes width  */
+.containera{
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    /* border: 3px solid red; */
+    margin-top: 13%;
+    height: 100vh;
+    margin-left: 8%;
+    /* overflow: hidden; */
+}
+
+/* left box  */
+.container1{
+    width: 25%;
+    /* border: 3px solid white; */
+}
+
+/* right box  */
+.container2{
+    /* margin: 0px,10%; */
+    /* padding-left: 3%; */
+    width: 70%;
+    /* border: 3px solid white;     */
+    /* margin-left: 7%; */
+    color: white;
+    
+}
+
+.heading{
+    font-weight: 900;
+    font-size: 2.25rem;
+}
+  
+
+/* left box first big image  */
+.first{
+    width: 70%;
+    border-radius: 12px;
+    margin-top: 10%;
+}
+
+.lightwrit{
+    color: gray;
+}
+
+/* first play button  */
+.button1{
+    background-color: rgb(251, 43, 43);
+    color: white;
+    display: flex;
+    padding: 14px;
+    height: 7%;
+    border-radius: 20px;
+    width: 120px;
+    border: none;
+}
+
+/* heading for songs  */
+.header{
+    display: flex;
+    margin-top: 16px;
+    font-size: 14px;
+}
+
+.header1a{
+    margin-right: 3%;
+    
+}
+.header1b{
+    margin-right: 25%;
+}
+.header1c{
+    margin-right: 19%;
+}
+.header1d{
+    margin-right: 18%;
+}
+
+/* list of songs  */
+.header1{
+    display: flex;
+    font-size: 14px;
+    
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    /* border: 3px solid rgb(76, 31, 31); */
+    margin-top: 2%;
+    width: 93%;
+}
+
+.list:hover{
+    border: 3px solid grey;
+    border-radius: 12px;
+}
+
+.list1b{
+    /* border: 3px solid red; */
+    width: 30%;
+    margin-left: 3%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.listlogo1{
+    width: 20%;
+    border-radius: 12%;
+    margin-right: 4%;
+}
+
+.list1c{
+    /* border: 3px solid red; */
+    width: 25%;
+    height: 10vh;
+    display: flex;
+    margin-left: 2%;
+    align-items: center;
+}
+
+.list1d{
+    /* border: 3px solid red; */
+    width: 24%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+}
+
+.list1e{
+    /* border: 3px solid red; */
+    width: 12%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+/* heading of left bar  */
+.lefthead{
+    margin-top: 20%;
+    color: white;
+    margin-left: 5%;
+}
+
+/* left logo  */
+.artistlogo{
+    width: 30%;
+    border-radius: 80%;
+}
+
+.leftlogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5%;
+    margin-bottom: 7%;
+}
+
+.leftlogoname{
+    margin-left: 5%;
+    color: white;
+}
+
+

@@ -1,0 +1,100 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'ubuntu';
+    background-color: #0c0f12;
+}
+
+/* Navigation bar 1 */
+.navbar1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 3px solid red; */
+    height: 12vh;
+    background: linear-gradient(180deg,#0e0e0e,#1c1b1b 42.69%,#161616);
+    color: white;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    align-items: center;
+}
+
+/* Margin between Nav Bars */
+.gap{
+    margin-inline: 15.5rem;
+}
+
+/* left of navbar for logo */
+.left_bar{
+    display: flex;
+    flex-direction: row;
+    /* border: 3px solid blue; */
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logo Images */
+.wynk_logo{
+    width: 16%;
+}
+
+/* Right navbar marign */
+.Searchbar{
+    margin-right: 12rem; 
+}
+
+
+/* Navigation bar 2 */
+.navbar2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 3px solid red; */
+    height: 10vh;
+    background-color: #0c0f12;
+    color: white;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    align-items: center;
+}
+
+/* margin between navarbar heading  */
+.heading1{
+    margin-inline: 4.5rem;
+}
+
+.navbar{
+    position: fixed;
+}
+
+.searchbar{
+    height: 6vh;
+    margin-right: 280px;
+    width: 80%;
+    font-size: large;
+    border-radius: 20px;
+    border: none;
+    padding-left: 6%;
+    opacity: 80%;
+    color: white;
+    background-color: #36363f;
+}
+
+a{
+    text-decoration: none;
+}
+
+.list1f:hover{
+    cursor: pointer;
+    color: grey;
+}
+
+.button1:hover{
+cursor: pointer;
+background-color: red;
+}
+
+.heading1:hover{
+    color: white;
+}

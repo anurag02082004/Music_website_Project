@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/navbars.css">
+    <link rel="stylesheet" href="/container.css">
+    <link rel="stylesheet" href="/play.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header class="navbar">
+    <nav class="navbar1">
+        <div class="left_bar">
+            <img src="/Images/wynk_logo.png" alt="" class="wynk_logo">
+            <div>Wynk Music</div>
+        </div>
+
+        <div class="gap"></div>
+        <form action="">
+            <input id="input" type="text" placeholder="            Search Songs" class="searchbar">
+        </form>
+    </nav>
+    <nav class="navbar2">
+        <div class="lightwrit heading1">All</div>
+        <a href="/Best.html" class="lightwrit heading1">Best of Duets 2018</a>
+        <a href="/New.html" class="lightwrit heading1">New English Songs</a>
+        <div class="lightwrit heading1">Moods & Genre</div>
+        <div class="lightwrit heading1">Top Artists</div>
+    </nav>
+    </header>
+    <div class="container">
+        <div class="containera">
+
+
+            </div>
+        </div>     
+        <div class="playbar">
+            <div class="containerb">
+                <img src="/Images/taylorlist.jfif" alt="" class="playlogo">
+                <div class="playwrit">
+                    <div id="playname" class="playname">Blank Space</div>
+                    <div  class="playgap"></div>
+                    <div id="playdet" class="playdet">Taylor Swift - Midnights The Til Dawn Edition</div>
+                    </div>
+                <div class="playoptn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi back bi-skip-start-fill" viewBox="0 0 16 16">
+                        <path d="M4 4a.5.5 0 0 1 1 0v3.248l6.267-3.636c.54-.313 1.232.066 1.232.696v7.384c0 .63-.692 1.01-1.232.697L5 8.753V12a.5.5 0 0 1-1 0V4z"/>
+                      </svg>
+                    <svg id="masterPlay" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="play playbars bi bi-play-fill" viewBox="0 0 16 16">
+                        <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                      </svg>
+                    <svg id="pausebar" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="play bi pause bi-pause-fill" viewBox="0 0 16 16">
+                        <path d="M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5zm5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5z"/>
+                      </svg>                      
+                      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi forward bi-skip-end-fill" viewBox="0 0 16 16">
+                        <path d="M12.5 4a.5.5 0 0 0-1 0v3.248L5.233 3.612C4.693 3.3 4 3.678 4 4.308v7.384c0 .63.692 1.01 1.233.697L11.5 8.753V12a.5.5 0 0 0 1 0V4z"/>
+                      </svg>
+                </div>  
+                <div class="time">
+                    <div id="starttime">00:00</div>         
+                    <div class="timeline">/</div>
+                    <div id="endtime">03:54</div>
+
+                </div>
+                </div>
+                    
+        <div class="line"></div> 
+        <div id="line1" class="line1"></div> 
+        </div>
+    </div>
+    <script src="/Songs.js"></script>
+    <script src="/masterplay.js"></script>
+    <script src="/Search.js"></script>
+</body>
+</html>

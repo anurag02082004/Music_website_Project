@@ -1,0 +1,113 @@
+/* play box  */
+
+.playbar{
+    position: fixed;
+    width: 100%;
+}
+
+
+.containerb{
+    width: 100%;
+    /* border: 3px solid pink; */
+    position: relative;
+    bottom: 241px;
+    height: 12vh;
+    /* float: right; */
+    background-color: #21252d;
+    
+    display: flex;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding-left: 2%;
+    
+}
+
+/* player logo  */
+.playlogo{
+    width: 4%;
+    height: 8vh;
+    border-radius: 12%;
+    /* margin: 10% 12%; */
+}
+
+.playwrit{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+    width: 20%;
+}
+
+.playgap{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.playname{
+    font-size: 0.9rem;
+}
+.playdet{
+    font-size: 0.8rem;
+    color: gray;
+}
+
+
+/* for pause play and more  */
+.playoptn{
+    display: flex;
+    margin-left: 16%;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 15%;
+    
+}
+/* background red color of pauase and play  */
+.play{
+    margin-inline: 13%;
+    border-radius: 100px;
+    background-color: rgb(251, 43, 43);
+    height: 8vh;
+    width: 26%;
+}
+.play:hover{
+    background-color: red;
+}
+.pause{
+    display: none;
+}
+
+.timeanim{
+    position: relative;
+    bottom: 600px;
+    border: 3px solid red;
+    right: 233px;
+    float: inline-start;
+    width: 100px;
+}
+
+.line{
+    position: relative;
+    width: 100%;
+    background-color: #646667;
+    height: 0.3vh;
+    bottom: 316px;
+}
+
+.line1{
+    position: relative;
+    width: 0%;
+    background-color: #ff0000;
+    height: 0.3vh;
+    bottom: 317px;
+}
+
+
+
+.time{
+    display: flex;
+    padding-left: 32%;
+}
+
+
